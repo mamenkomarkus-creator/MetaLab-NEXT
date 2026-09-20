@@ -1,0 +1,37 @@
+# --- Unity Standard ---
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+MemoryCaptures/
+Recordings/
+
+# --- VRChat Creator Companion / VPM ---
+# Local package copies are restored by VCC.
+/Packages/*
+!/Packages/manifest.json
+!/Packages/packages-lock.json
+
+# --- Gradle / Android (Quest) ---
+.gradle/
+/Assets/Plugins/Android/assets/
+
+# --- IDEs and OS ---
+.vs/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+.DS_Store
+Thumbs.db
+
+# --- Presentation build ---
+node_modules/
+.env

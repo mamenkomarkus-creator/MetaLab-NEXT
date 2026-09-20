@@ -1,0 +1,17 @@
+{
+  "name": "metalab-next",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "pdf": "node scripts/build-next-pdf.mjs",
+    "qr": "node scripts/build-qr.mjs"
+  },
+  "dependencies": {
+    "@pdf-lib/fontkit": "^1.1.1",
+    "pdf-lib": "^1.17.1",
+    "qrcode": "^1.5.4"
+  },
+  "devDependencies": {
+    "isomorphic-git": "^1.42.2"
+  }
+}
