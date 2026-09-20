@@ -16,7 +16,7 @@ const CARD = rgb(0.97, 0.97, 0.99);
 const copy = {
   en: {
     title: "MetaLab",
-    subtitle: "Virtual model of a teaching laboratory in VRChat",
+    subtitle: "MacPaw AI Lab in VRChat for the NEXT-Study Metaverse",
     nomination: "Nomination I  —  Metaverse representation of the university",
     teamLine: "Team MetaLab",
     university: "Igor Sikorsky Kyiv Polytechnic Institute",
@@ -41,10 +41,10 @@ const copy = {
       "Agile team of five. Modelling, texturing, C# logic and Unity assembly run in parallel, synced over Git. Regular VR playtests.",
     ideaTitle: "Idea and goal",
     ideaKicker: "THE PROBLEM",
-    ideaName: "No shared lab in remote study",
-    ideaUni: "Department laboratory  ·  NEXT-Study Metaverse",
+    ideaName: "No shared room in remote study",
+    ideaUni: "MacPaw AI Lab  ·  NEXT-Study Metaverse",
     ideaBody:
-      "MetaLab is a digital twin of the department classroom on VRChat. Workstations, network gear and 3D printers move into the Metaverse so students can run remote labs together with a sense of real presence.",
+      "MetaLab brings MacPaw AI Lab into VRChat. Seminar rows, boards and workstations live in one multiplayer hall so students can practise together with a sense of real presence.",
     goalsKicker: "PROJECT GOALS",
     goals: [
       "• Visual accuracy: real proportions of furniture and gear",
@@ -54,10 +54,10 @@ const copy = {
       "• Multiplayer VRChat world for NEXT-Study",
     ],
     locTitle: "Selected Location",
-    locName: "MacPaw AI Lab / department classroom",
+    locName: "MacPaw AI Lab",
     locBody:
-      "The world reconstructs the department laboratory: seminar rows, critique boards, an informal lounge and workstations. Visitors share one room instead of a video grid.",
-    modelTitle: "The laboratory in VRChat",
+      "The world rebuilds MacPaw AI Lab: seminar rows, critique boards, a lounge and workstations. Visitors share one room instead of a video grid.",
+    modelTitle: "The space in VRChat",
     artTitle: "Digital Artefacts",
     artNames: ["Classroom layout", "Lounge and boards", "Workstations"],
     artCaps: [
@@ -72,7 +72,7 @@ const copy = {
       ],
       [
         "Development process",
-        "1) Block out the real lab. 2) Model and retopo furniture and equipment. 3) Paint PBR materials. 4) Bake lighting and collisions in Unity. 5) Add UdonSharp interaction and publish the world.",
+        "1) Block out MacPaw AI Lab. 2) Model and retopo furniture and equipment. 3) Paint PBR materials. 4) Bake lighting and collisions in Unity. 5) Add UdonSharp interaction and publish the world.",
       ],
       [
         "VRChat integration",
@@ -86,7 +86,7 @@ const copy = {
     next: [
       [
         "Educational use",
-        "In NEXT-Study Metaverse a group meets in the same virtual lab for remote practicals, hackathons and applicant tours — without losing the spatial feel of the department.",
+        "In NEXT-Study Metaverse a group meets in the same virtual hall for remote practicals, hackathons and applicant tours — with the spatial feel of a real classroom.",
       ],
       [
         "User experience",
@@ -94,7 +94,7 @@ const copy = {
       ],
       [
         "Further development",
-        "Hook AI mentors and network simulators through OSC and HTTP, refine Quest performance, keep adding department equipment as modular prefabs.",
+        "Hook AI mentors and network simulators through OSC and HTTP, refine Quest performance, keep adding equipment as modular prefabs.",
       ],
     ],
     demo: "Project demo",
@@ -109,7 +109,7 @@ const copy = {
   },
   uk: {
     title: "MetaLab",
-    subtitle: "Віртуальна модель навчальної лабораторії у середовищі VRChat",
+    subtitle: "MacPaw AI Lab у VRChat для метавсесвіту NEXT-Study",
     nomination: "Номінація I  —  Віртуальне Metaverse-представлення університету",
     teamLine: "Команда MetaLab",
     university: "КПІ ім. Ігоря Сікорського",
@@ -134,10 +134,10 @@ const copy = {
       "Agile-команда з п’яти осіб. Моделювання, текстури, логіка C# і збірка в Unity паралельно, синхрон через Git. Регулярні VR-прогони.",
     ideaTitle: "Ідея та мета",
     ideaKicker: "ПРОБЛЕМА",
-    ideaName: "Немає спільної лабораторії дистанційно",
-    ideaUni: "Лабораторія кафедри  ·  метавсесвіт NEXT-Study",
+    ideaName: "Немає спільної зали дистанційно",
+    ideaUni: "MacPaw AI Lab  ·  метавсесвіт NEXT-Study",
     ideaBody:
-      "MetaLab — цифрова копія аудиторії кафедри на VRChat. Робочі місця, мережеве обладнання та 3D-принтери перенесені в Metaverse, щоб студенти проводили дистанційні лабораторні разом, з ефектом реальної присутності.",
+      "MetaLab переносить MacPaw AI Lab у VRChat. Семінарські ряди, дошки та робочі станції живуть в одній багатокористувацькій залі — практика разом, з ефектом присутності.",
     goalsKicker: "МЕТА ПРОЄКТУ",
     goals: [
       "• Візуальна точність: реальні пропорції меблів і техніки",
@@ -147,10 +147,10 @@ const copy = {
       "• Багатокористувацький світ VRChat для NEXT",
     ],
     locTitle: "Обрана локація",
-    locName: "Аудиторія MacPaw AI Lab / лабораторія кафедри",
+    locName: "MacPaw AI Lab",
     locBody:
-      "Світ відтворює лабораторію кафедри: семінарські ряди, дошки критики, неформальна зона та робочі місця. Відвідувачі ділять одну залу, а не сітку вікон Zoom.",
-    modelTitle: "Лабораторія у VRChat",
+      "Світ відтворює MacPaw AI Lab: семінарські ряди, дошки критики, lounge і робочі місця. Відвідувачі ділять одну залу, а не сітку вікон відеозв’язку.",
+    modelTitle: "Простір у VRChat",
     artTitle: "Цифрові артефакти",
     artNames: ["Планування зали", "Lounge і дошки", "Робочі місця"],
     artCaps: [
@@ -165,7 +165,7 @@ const copy = {
       ],
       [
         "Процес розробки",
-        "1) Блокаут реальної лабораторії. 2) Моделі та ретопологія меблів і обладнання. 3) PBR-текстури. 4) Світло й колізії в Unity. 5) Інтерактив UdonSharp і публікація світу.",
+        "1) Блокаут MacPaw AI Lab. 2) Моделі та ретопологія меблів і обладнання. 3) PBR-текстури. 4) Світло й колізії в Unity. 5) Інтерактив UdonSharp і публікація світу.",
       ],
       [
         "Інтеграція VRChat",
@@ -179,7 +179,7 @@ const copy = {
     next: [
       [
         "Освітнє використання",
-        "У метавсесвіті NEXT-Study група збирається в тій самій віртуальній лабораторії для дистанційних практик, хакатонів і екскурсій для абітурієнтів — без втрати простору кафедри.",
+        "У метавсесвіті NEXT-Study група збирається в тій самій віртуальній залі для дистанційних практик, хакатонів і екскурсій — зі відчуттям справжнього навчального простору.",
       ],
       [
         "Досвід відвідувача",
@@ -187,7 +187,7 @@ const copy = {
       ],
       [
         "Подальший розвиток",
-        "Підключити AI-менторів і мережеві симулятори через OSC/HTTP, підтягнути Quest, додавати обладнання кафедри як модульні префаби.",
+        "Підключити AI-менторів і мережеві симулятори через OSC/HTTP, підтягнути Quest, додавати обладнання як модульні префаби.",
       ],
     ],
     demo: "Демо проєкту",

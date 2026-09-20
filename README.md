@@ -1,44 +1,51 @@
 # MetaLab
 
-Віртуальна модель навчальної лабораторії кафедри у середовищі VRChat.
+**Віртуальний навчальний простір у VRChat** для метавсесвіту NEXT-Study.
 
-**Номінація I** · Erasmus+ NEXT Student Creative Project Competition  
-КПІ ім. Ігоря Сікорського · команда MetaLab  
-Тімлід: **Павленко Святослав**
+Номінація I · Erasmus+ NEXT Student Creative Project Competition  
+КПІ ім. Ігоря Сікорського · тімлід **Павленко Святослав**
 
-https://github.com/mamenkomarkus-creator/MetaLab-NEXT
+[Відкрити світ](https://vrchat.com/home/world/wrld_b1c73436-f022-4f98-9172-671f9f0da989/info) · [Презентація UK](docs/presentation/MetaLab-NEXT-UK.pdf) · [Презентація EN](docs/presentation/MetaLab-NEXT-EN.pdf)
 
----
+<p align="center">
+  <img src="docs/presentation/lab/01-overview.jpg" alt="MetaLab — MacPaw AI Lab" width="880">
+</p>
 
-MetaLab — точна віртуальна копія навчальної лабораторії (MacPaw AI Lab) на платформі VRChat. Робочі місця, дошки, зона відпочинку та обладнання перенесені в метавсесвіт NEXT-Study, щоб проводити дистанційні лабораторні, хакатони й екскурсії з ефектом присутності.
+MetaLab переносить **MacPaw AI Lab** у VRChat: семінарські ряди, дошки, lounge і робочі станції в одній багатокористувацькій залі. Студенти проводять практику, хакатони й екскурсії з ефектом присутності — без сітки вікон відеозв’язку.
 
-| Документ | |
+## Для комісії
+
+| | |
 | --- | --- |
-| Карта документації | [docs/README.md](docs/README.md) |
-| Презентація українською | [docs/presentation/MetaLab-NEXT-UK.pdf](docs/presentation/MetaLab-NEXT-UK.pdf) |
-| Презентація англійською | [docs/presentation/MetaLab-NEXT-EN.pdf](docs/presentation/MetaLab-NEXT-EN.pdf) |
-| Ідея та мета | [docs/CONCEPT.md](docs/CONCEPT.md) |
-| Інтеграція в VRChat | [docs/VRCHAT.md](docs/VRCHAT.md) |
-| Демо світу | https://vrchat.com/home/world/wrld_b1c73436-f022-4f98-9172-671f9f0da989/info |
-| Пакет здачі | [docs/SUBMISSION.md](docs/SUBMISSION.md) |
-| Проєкт Unity | [`New Project/`](New%20Project/) · сцена `Assets/Scenes/MetaLab_Main.unity` |
+| Світ VRChat | https://vrchat.com/home/world/wrld_b1c73436-f022-4f98-9172-671f9f0da989/info |
+| Презентація (UK) | [docs/presentation/MetaLab-NEXT-UK.pdf](docs/presentation/MetaLab-NEXT-UK.pdf) |
+| Презентація (EN) | [docs/presentation/MetaLab-NEXT-EN.pdf](docs/presentation/MetaLab-NEXT-EN.pdf) |
+| Ідея | [docs/CONCEPT.md](docs/CONCEPT.md) |
+| Як зайти у світ | [docs/VRCHAT.md](docs/VRCHAT.md) |
+| Технічна реалізація | [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) |
+| Сценарій захисту | [docs/DEMO.md](docs/DEMO.md) |
+| Unity | [`unity/`](unity/) · сцена `Assets/Scenes/MetaLab_Main.unity` |
 
-Відкрийте папку `New Project` у **Unity 2022.3.22f1** + VRChat Creator Companion (VPM). Світ опубліковано як `wrld_b1c73436-f022-4f98-9172-671f9f0da989`.
+## Стек
+
+Unity **2022.3.22f1** · VRChat SDK3 · UdonSharp (C#) · Blender · Substance 3D Painter · PBR · light baking
+
+Відкрийте `unity/` у VRChat Creator Companion. Пакети VPM підтягнуться з `Packages/manifest.json`.
 
 ## Команда
 
-| Учасник | Роль |
+| | Роль |
 | --- | --- |
-| **Павленко Святослав** / Sviatoslav Pavlenko | Team Lead · координація, терміни, комунікація |
-| Ільєнко Денис / Denys Ilienko | 3D-моделювання приміщення й об’єктів, ретопологія |
-| Пошитнюк Дмитро / Dmytro Poshytyniuk | PBR-текстури, матеріали Unity |
-| Маменко Марк / Mark Mamenko | UdonSharp · інтерактив і мережева синхронізація |
-| Шозда Катерина / Kateryna Shozda | QA / VR-тестування, FPS і стабільність сцени |
+| **Павленко Святослав** | Team Lead |
+| Ільєнко Денис | 3D · ретопологія |
+| Пошитнюк Дмитро | PBR · матеріали |
+| Маменко Марк | UdonSharp · мережа |
+| Шозда Катерина | QA · VR |
 
-## English
+Повний розподіл: [AUTHORS.md](AUTHORS.md)
 
-**Nomination I** — virtual (Metaverse) representation of a university laboratory on VRChat. A digital twin of the department classroom for remote labs and shared presence in NEXT-Study Metaverse. Team lead: **Sviatoslav Pavlenko**.
+---
 
-Presentations (official NEXT template): Ukrainian and English PDFs in `docs/presentation/`. World: [VRChat](https://vrchat.com/home/world/wrld_b1c73436-f022-4f98-9172-671f9f0da989/info).
+### English
 
-Unity project: `New Project/` (2022.3.22f1, VRChat SDK3, UdonSharp). Stack also includes Blender, Substance 3D Painter, PBR and light baking.
+**Nomination I** — a MacPaw AI Lab space on VRChat for the NEXT-Study Metaverse. Seminar rows, critique boards, lounge and workstations in one multiplayer room. Team lead: **Sviatoslav Pavlenko**. Official-template PDFs in `docs/presentation/`. World link above.

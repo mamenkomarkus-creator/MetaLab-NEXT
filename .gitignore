@@ -35,3 +35,7 @@ Thumbs.db
 # --- Presentation build ---
 node_modules/
 .env
+
+# Unity local junk
+UpgradeLog.htm
+ClientSimStorage/

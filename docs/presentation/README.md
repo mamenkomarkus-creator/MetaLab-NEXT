@@ -1,15 +1,13 @@
-# Презентації NEXT
+# Презентації
 
-Офіційний шаблон Erasmus+ NEXT Student Creative Project Competition. Номінація I. Формат PDF.
+Офіційний шаблон Erasmus+ NEXT. Номінація I.
 
-| Файл | Мова |
+| | |
 | --- | --- |
 | [MetaLab-NEXT-UK.pdf](MetaLab-NEXT-UK.pdf) | Українська |
 | [MetaLab-NEXT-EN.pdf](MetaLab-NEXT-EN.pdf) | English |
 
-Фото лабораторії: `lab/`. Тімлід на слайдах команди: Павленко Святослав.
-
-Перебудова:
+Кадри зали: `lab/`.
 
 ```bash
 npm install
