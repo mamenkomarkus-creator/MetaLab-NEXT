@@ -42,11 +42,13 @@
 
 Колізії стоять на підлозі, столах і стінах. SDK3 дає точки появи й аудіозони. UdonSharp синхронізує стан інтерактивних об’єктів між гравцями в одному інстансі. Окремо залишено місце під термінал CodeSensei: зала вже працює як місце зустрічі, а ментор додає в неї практику з коду.
 
+Що виміряно. У сцені `MetaLab_Main` з репозиторію: 22 об’єкти, 14 екземплярів префабів, 6 джерел світла, 2 lightmap-и 1024 × 1024 і 1 reflection probe. Трикутники, батчі, розмір збірки й кадрову частоту опублікованого світу ще не виміряно: потрібен повний проєкт Unity і шолом. Протокол: [`docs/evaluation/README.md`](docs/evaluation/README.md); статистика сцени — `python3 scripts/scene_stats.py`.
+
 Як зайти. VRChat на PC або PCVR, акаунт, посилання на світ вище. World ID: `wrld_b1c73436-f022-4f98-9172-671f9f0da989`. Якщо в залі має відповідати ментор, увімкніть **Settings → Security → Allow Untrusted URLs** і перезайдіть. У редакторі сцена — `unity/Assets/Scenes/MetaLab_Main.unity`. Коротко: [presentation-materials/documentation/VRCHAT.md](presentation-materials/documentation/VRCHAT.md).
 
 ## 4. Труднощі та ліміти
 
-VRChat обмежує полігони, матеріали й розмір світу. Детальна копія кожного стільця не проходить, тож сітку спрощено ретопологією: інакше падають кадри і з’являється заколисування. Динамічне світло довелося замінити запеченим. Інтерактив не переноситься з звичайного Unity; синхронізувати можна лише те, що описано в Udon. Quest потребує окремого проходу. Запити CodeSensei назовні VRChat блокує, доки гравець сам не дозволить ненадійні адреси.
+VRChat обмежує полігони, матеріали й розмір світу. Детальна копія кожного стільця не проходить, тож сітку спрощено ретопологією: інакше падають кадри і з’являється заколисування. Динамічне світло довелося замінити запеченим. Інтерактив не переноситься з звичайного Unity; синхронізувати можна лише те, що описано в Udon. Quest потребує окремого проходу. Запити CodeSensei назовні VRChat блокує, доки гравець сам не дозволить ненадійні адреси. Репозиторій не містить вихідних моделей і чотирьох префабів, на які посилається сцена, тому збірка з нуля не відтворюється. Розбір як загроз валідності: розділ 4 [документації](presentation-materials/documentation/DOCUMENTATION.md).
 
 ## 5. Подальший розвиток
 
@@ -72,11 +74,13 @@ Built in **Unity 2022.3.22f1** and **VRChat SDK3**, with **UdonSharp**, **Blende
 
 Seminar tables, orange chairs, whiteboards, shelves, workstations, and a lounge of round poufs. The wall logo is a raster from our lab reference. Colliders cover the floor, tables, and walls. SDK3 provides spawns and audio zones. UdonSharp syncs interactive state. Room is left for the CodeSensei terminal.
 
+Measured: the repository’s `MetaLab_Main` scene has 22 objects, 14 prefab instances, 6 light sources, 2 lightmaps of 1024 × 1024, and 1 reflection probe. Triangles, batches, build size, and frame rate of the published world are not measured yet: the full Unity project and a headset are needed. Protocol: [`docs/evaluation/README.md`](docs/evaluation/README.md); scene statistics via `python3 scripts/scene_stats.py`.
+
 Join on PC or PCVR with a VRChat account. World ID: `wrld_b1c73436-f022-4f98-9172-671f9f0da989`. For the mentor, enable **Allow Untrusted URLs** and rejoin. Scene: `unity/Assets/Scenes/MetaLab_Main.unity`. Short steps: [presentation-materials/documentation/VRCHAT.md](presentation-materials/documentation/VRCHAT.md).
 
 ## 4. Difficulties and limits
 
-Polygon, material, and download budgets forced retopology, or the headset frame rate drops and motion sickness appears. Lighting is baked instead of realtime. Interaction cannot be copied from ordinary Unity. Quest needs another pass. Outbound CodeSensei calls stay blocked until each player allows untrusted URLs.
+Polygon, material, and download budgets forced retopology, or the headset frame rate drops and motion sickness appears. Lighting is baked instead of realtime. Interaction cannot be copied from ordinary Unity. Quest needs another pass. Outbound CodeSensei calls stay blocked until each player allows untrusted URLs. The repository does not contain the source models and the four prefabs the scene refers to, so the build cannot be reproduced from scratch. These limits are analysed as threats to validity in section 4 of the [documentation](presentation-materials/documentation/DOCUMENTATION.md).
 
 ## 5. Further development
 

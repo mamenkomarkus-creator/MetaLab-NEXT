@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "Якщо ви використовуєте цю роботу, цитуйте її так / If you use this work, please cite it as below."
+title: "MetaLab: VR-копія лабораторії MacPaw AI Lab у VRChat для метавсесвіту NEXT-Study"
+type: software
+abstract: >-
+  Багатокористувацький світ VRChat, що відтворює лабораторію MacPaw AI Lab у КПІ:
+  сцена Unity 2022.3.22f1 з VRChat SDK3 Worlds, UdonSharp, запечене освітлення.
+  Проєкт команди Bilka для конкурсу Erasmus+ NEXT (КПІ ім. Ігоря Сікорського).
+authors:
+  - family-names: Pavlenko
+    given-names: Sviatoslav
+    affiliation: "Igor Sikorsky Kyiv Polytechnic Institute"
+  - family-names: Ilienko
+    given-names: Denys
+    affiliation: "Igor Sikorsky Kyiv Polytechnic Institute"
+  - family-names: Poshytyniuk
+    given-names: Dmytro
+    affiliation: "Igor Sikorsky Kyiv Polytechnic Institute"
+  - family-names: Mamenko
+    given-names: Mark
+    affiliation: "Igor Sikorsky Kyiv Polytechnic Institute"
+  - family-names: Shozda
+    given-names: Kateryna
+    affiliation: "Igor Sikorsky Kyiv Polytechnic Institute"
+repository-code: "https://github.com/mamenkomarkus-creator/MetaLab-NEXT"
+url: "https://vrchat.com/home/world/wrld_b1c73436-f022-4f98-9172-671f9f0da989/info"
+keywords:
+  - VRChat
+  - metaverse
+  - virtual laboratory
+  - Unity
+  - UdonSharp
+date-released: 2026-10-08

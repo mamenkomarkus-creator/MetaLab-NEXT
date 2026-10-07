@@ -1,0 +1,64 @@
+{
+  "scene_file_bytes": 223914,
+  "components": {
+    "class29": 1,
+    "class104": 1,
+    "class157": 1,
+    "class196": 1,
+    "PrefabInstance": 14,
+    "GameObject": 22,
+    "BoxCollider": 9,
+    "MeshRenderer": 10,
+    "MeshFilter": 10,
+    "class4": 18,
+    "Light": 6,
+    "class81": 1,
+    "class20": 1,
+    "MeshCollider": 1,
+    "MonoBehaviour": 8,
+    "Canvas": 1,
+    "class224": 3,
+    "class222": 2,
+    "class1660057539": 1
+  },
+  "lights": [
+    {
+      "type": "point",
+      "m_Lightmapping_raw": 4
+    },
+    {
+      "type": "point",
+      "m_Lightmapping_raw": 4
+    },
+    {
+      "type": "point",
+      "m_Lightmapping_raw": 4
+    },
+    {
+      "type": "point",
+      "m_Lightmapping_raw": 4
+    },
+    {
+      "type": "directional",
+      "m_Lightmapping_raw": 4
+    },
+    {
+      "type": "point",
+      "m_Lightmapping_raw": 4
+    }
+  ],
+  "prefab_guids_referenced": 4,
+  "prefab_guids_present_in_repo": 0,
+  "lightmaps": [
+    {
+      "file": "Lightmap-0_comp_light.exr",
+      "bytes": 2650607
+    },
+    {
+      "file": "Lightmap-1_comp_light.exr",
+      "bytes": 1188436
+    }
+  ],
+  "mesh_references_builtin_only": true,
+  "static_flags_overrides_in_prefab_instances": 215
+}
