@@ -51,7 +51,7 @@ World ID: `wrld_b1c73436-f022-4f98-9172-671f9f0da989`
 
 ### 3.2 Конвеєр створення
 
-Шлях від фізичної кімнати до опублікованого світу показано на рис. 1.
+Шлях від фізичної кімнати до опублікованого світу показано на схемі нижче.
 
 ```mermaid
 flowchart LR
@@ -63,11 +63,11 @@ flowchart LR
     U -.-> C["Місце під термінал CodeSensei"]
 ```
 
-*Рис. 1. Конвеєр створення світу MetaLab.*
+*Конвеєр створення світу MetaLab.*
 
-Рішення на кожному кроці пов’язані з обмеженнями платформи (таблиця 1).
+Рішення на кожному кроці пов’язані з обмеженнями платформи (див. таблицю нижче).
 
-*Таблиця 1. Обмеження VRChat і відповідні рішення*
+**Обмеження VRChat і відповідні рішення**
 
 | Обмеження | Джерело | Рішення |
 | --- | --- | --- |
@@ -79,7 +79,7 @@ flowchart LR
 
 ### 3.3 Середовище і версії
 
-*Таблиця 2. Версії інструментів і пакетів (з `unity/ProjectSettings` і `unity/Packages/vpm-manifest.json`)*
+**Версії інструментів і пакетів (з `unity/ProjectSettings` і `unity/Packages/vpm-manifest.json`)**
 
 | Компонент | Версія |
 | --- | --- |
@@ -96,7 +96,7 @@ flowchart LR
 
 Статистику сцени `unity/Assets/Scenes/MetaLab_Main.unity` отримано скриптом [`scripts/scene_stats.py`](../../scripts/scene_stats.py), який читає YAML сцени без запуску Unity. Повний вивід: [`scene-stats-2026-10-07.json`](../../docs/evaluation/scene-stats-2026-10-07.json).
 
-*Таблиця 3. Склад сцени `MetaLab_Main` у репозиторії*
+**Склад сцени `MetaLab_Main` у репозиторії**
 
 | Показник | Значення |
 | --- | --- |
@@ -118,7 +118,7 @@ flowchart LR
 
 Для кожного показника наведено орієнтир платформи, значення і стан вимірювання. Протокол і шаблони для заповнення — у [`docs/evaluation/README.md`](../../docs/evaluation/README.md).
 
-*Таблиця 4. Показники бюджету та якості*
+**Показники бюджету та якості**
 
 | Показник | Орієнтир | Значення | Стан |
 | --- | --- | --- | --- |
@@ -140,7 +140,7 @@ flowchart LR
 
 У редакторі: додати `unity/` у VRChat Creator Companion, дочекатися пакетів VPM і відкрити сцену `Assets/Scenes/MetaLab_Main.unity`. Статистика сцени: `python3 scripts/scene_stats.py`. Короткий шлях заходу також у [VRCHAT.md](VRCHAT.md).
 
-## 4. Труднощі та ліміти (загрози валідності)
+## 4. Труднощі та ліміти
 
 **Бюджет сцени.** VRChat жорстко обмежує полігони, матеріали й розмір світу. Детальна копія кожного стільця «як у CAD» не проходить, тому сітку спрощено ретопологією; інакше кадри в шоломі падають і з’являється заколисування.
 
@@ -152,11 +152,11 @@ flowchart LR
 
 **Зовнішні URL.** Якщо в залі стоїть CodeSensei, VRChat не пропустить запит на сервер, доки гравець не дозволить ненадійні адреси.
 
-**Валідність і відтворюваність.** Продуктивність опублікованого світу (трикутники, батчі, розмір збірки, кадрова частота) не вимірювалася, тож твердження про те, що зала «вкладається в бюджет», поки підтверджене лише якісно: світ опубліковано й відкривається. Репозиторій не містить вихідних моделей, текстур і 4 префабів, на які посилається сцена, тому збірку не можна відтворити з нуля. Версії Blender і Substance не зафіксовані. Перевірку в шоломі виконувала одна людина, результатів у репозиторії немає. Усі виміряні числа в таблиці 3 стосуються файлів репозиторію, а не збірки.
+**Вимірювання і відтворюваність.** Продуктивність опублікованого світу (трикутники, батчі, розмір збірки, кадрова частота) не вимірювалася, тож твердження про те, що зала «вкладається в бюджет», поки підтверджене лише якісно: світ опубліковано й відкривається. Репозиторій не містить вихідних моделей, текстур і 4 префабів, на які посилається сцена, тому збірку не можна відтворити з нуля. Версії Blender і Substance не зафіксовані. Перевірку в шоломі виконувала одна людина, результатів у репозиторії немає. Усі виміряні числа з розділу 3.4 стосуються файлів репозиторію, а не збірки.
 
 ## 5. Подальший розвиток
 
-1. Виміряти показники таблиці 4 за протоколом (трикутники, батчі, розмір збірки, кадрова частота) і додати значення в цей документ.
+1. Виміряти показники з розділу 3.5 за протоколом (трикутники, батчі, розмір збірки, кадрова частота) і додати значення в цей документ.
 2. Зберегти ретопологію «до і після» для кількох типових об’єктів (кількість трикутників) і додати до документа.
 3. Додати у репозиторій або в окреме сховище вихідні моделі, текстури й відсутні префаби та зафіксувати версії Blender і Substance, щоб збірка відтворювалась.
 4. Підтвердити режим запікання ламп у Unity й за потреби перепекти світло.
@@ -164,10 +164,10 @@ flowchart LR
 6. Додати прості симулятори мереж через OSC або HTTP, не ламаючи бюджет сцени, і нарізати обладнання модульними префабами.
 7. Зробити прохід під Quest. Оформити публічну картку світу для екскурсій абітурієнтів.
 
-## Джерела
+## Посилання
 
-1. VRChat Creators. *Quest Content Optimization*. https://creators.vrchat.com/platforms/android/quest-content-optimization (дата звернення: 2026-10-07).
-2. VRChat Creators. *String Loading*. https://creators.vrchat.com/worlds/udon/string-loading/ (дата звернення: 2026-10-07).
+1. VRChat Creators. *Quest Content Optimization*. https://creators.vrchat.com/platforms/android/quest-content-optimization.
+2. VRChat Creators. *String Loading*. https://creators.vrchat.com/worlds/udon/string-loading/.
 
 ---
 
@@ -179,9 +179,7 @@ flowchart LR
 Nomination I · Erasmus+ NEXT · Igor Sikorsky Kyiv Polytechnic Institute  
 Team lead: **Sviatoslav Pavlenko** · paired mentor: [CodeSensei](https://github.com/mamenkomarkus-creator/CodeSensei) (team KP_Devs)
 
-Document version: 2026-10-08 · repository revision analysed: `4fec493` · analysis date: 2026-10-07 (UTC)
-
-**Keywords:** VRChat, metaverse, virtual laboratory, Unity, UdonSharp, retopology, baked lighting.
+As of 2026-10-07 · repository revision `4fec493`
 
 ## 1. Annotation
 
@@ -225,7 +223,7 @@ Colliders sit on the floor, tables, and walls so avatars do not fall through fur
 
 ### 3.2 Creation pipeline
 
-Figure 1 shows the path from the physical room to the published world.
+The path from the physical room to the published world is shown below.
 
 ```mermaid
 flowchart LR
@@ -237,11 +235,11 @@ flowchart LR
     U -.-> C["Spot for the CodeSensei terminal"]
 ```
 
-*Figure 1. The MetaLab world creation pipeline.*
+*The MetaLab world creation pipeline.*
 
-The decision at each step follows a platform constraint (Table 1).
+The decision at each step follows a platform constraint (see the table below).
 
-*Table 1. VRChat constraints and the corresponding decisions*
+**VRChat constraints and the corresponding decisions**
 
 | Constraint | Source | Decision |
 | --- | --- | --- |
@@ -253,7 +251,7 @@ The decision at each step follows a platform constraint (Table 1).
 
 ### 3.3 Environment and versions
 
-*Table 2. Tool and package versions (from `unity/ProjectSettings` and `unity/Packages/vpm-manifest.json`)*
+**Tool and package versions (from `unity/ProjectSettings` and `unity/Packages/vpm-manifest.json`)**
 
 | Component | Version |
 | --- | --- |
@@ -270,7 +268,7 @@ The decision at each step follows a platform constraint (Table 1).
 
 The statistics of the scene `unity/Assets/Scenes/MetaLab_Main.unity` were obtained with [`scripts/scene_stats.py`](../../scripts/scene_stats.py), which reads the scene YAML without launching Unity. Full output: [`scene-stats-2026-10-07.json`](../../docs/evaluation/scene-stats-2026-10-07.json).
 
-*Table 3. Composition of the `MetaLab_Main` scene in the repository*
+**Composition of the `MetaLab_Main` scene in the repository**
 
 | Indicator | Value |
 | --- | --- |
@@ -292,7 +290,7 @@ These numbers describe only what is in the repository. They are not characterist
 
 For each indicator we give the platform reference, the value, and the measurement status. The protocol and fill-in templates are in [`docs/evaluation/README.md`](../../docs/evaluation/README.md).
 
-*Table 4. Budget and quality indicators*
+**Budget and quality indicators**
 
 | Indicator | Reference | Value | Status |
 | --- | --- | --- | --- |
@@ -314,7 +312,7 @@ For each indicator we give the platform reference, the value, and the measuremen
 
 In the editor: add `unity/` to the VRChat Creator Companion, wait for the VPM packages, and open the scene `Assets/Scenes/MetaLab_Main.unity`. Scene statistics: `python3 scripts/scene_stats.py`. The short entry path is also in [VRCHAT.md](VRCHAT.md).
 
-## 4. Difficulties and limits (threats to validity)
+## 4. Difficulties and limits
 
 **Scene budget.** VRChat strictly limits polygons, materials, and world size. A CAD-accurate copy of every chair does not pass, so the mesh is simplified by retopology; otherwise the frame rate in the headset drops and motion sickness appears.
 
@@ -326,11 +324,11 @@ In the editor: add `unity/` to the VRChat Creator Companion, wait for the VPM pa
 
 **External URLs.** If CodeSensei stands in the hall, VRChat does not let the request out to the server until the player allows untrusted addresses.
 
-**Validity and reproducibility.** The performance of the published world (triangles, batches, build size, frame rate) was not measured, so the claim that the hall fits the budget is so far supported only qualitatively: the world is published and opens. The repository does not contain the source models, textures, and the 4 prefabs the scene refers to, so the build cannot be reproduced from scratch. The Blender and Substance versions are not recorded. The headset check was done by one person and no results are in the repository. All measured numbers in Table 3 concern repository files, not the build.
+**Measurements and reproducibility.** The performance of the published world (triangles, batches, build size, frame rate) was not measured, so the claim that the hall fits the budget is so far supported only qualitatively: the world is published and opens. The repository does not contain the source models, textures, and the 4 prefabs the scene refers to, so the build cannot be reproduced from scratch. The Blender and Substance versions are not recorded. The headset check was done by one person and no results are in the repository. All measured numbers in section 3.4 concern repository files, not the build.
 
 ## 5. Further development
 
-1. Measure the indicators of Table 4 by the protocol (triangles, batches, build size, frame rate) and add the values to this document.
+1. Measure the indicators in section 3.5 by the protocol (triangles, batches, build size, frame rate) and add the values to this document.
 2. Keep retopology “before and after” triangle counts for several typical objects and add them to the document.
 3. Add the source models, textures, and missing prefabs to the repository or to separate storage, and record the Blender and Substance versions, so that the build is reproducible.
 4. Confirm the baking mode of the lamps in Unity and rebake the lighting if needed.
@@ -338,7 +336,7 @@ In the editor: add `unity/` to the VRChat Creator Companion, wait for the VPM pa
 6. Add small network simulators over OSC or HTTP without breaking the scene budget, and split equipment into modular prefabs.
 7. Make a Quest pass. Publish a public world listing for applicant tours.
 
-## References
+## Links
 
 1. VRChat Creators. *Quest Content Optimization*. https://creators.vrchat.com/platforms/android/quest-content-optimization (accessed 2026-10-07).
 2. VRChat Creators. *String Loading*. https://creators.vrchat.com/worlds/udon/string-loading/ (accessed 2026-10-07).

@@ -48,7 +48,7 @@
 
 ## 4. Труднощі та ліміти
 
-VRChat обмежує полігони, матеріали й розмір світу. Детальна копія кожного стільця не проходить, тож сітку спрощено ретопологією: інакше падають кадри і з’являється заколисування. Динамічне світло довелося замінити запеченим. Інтерактив не переноситься з звичайного Unity; синхронізувати можна лише те, що описано в Udon. Quest потребує окремого проходу. Запити CodeSensei назовні VRChat блокує, доки гравець сам не дозволить ненадійні адреси. Репозиторій не містить вихідних моделей і чотирьох префабів, на які посилається сцена, тому збірка з нуля не відтворюється. Розбір як загроз валідності: розділ 4 [документації](presentation-materials/documentation/DOCUMENTATION.md).
+VRChat обмежує полігони, матеріали й розмір світу. Детальна копія кожного стільця не проходить, тож сітку спрощено ретопологією: інакше падають кадри і з’являється заколисування. Динамічне світло довелося замінити запеченим. Інтерактив не переноситься з звичайного Unity; синхронізувати можна лише те, що описано в Udon. Quest потребує окремого проходу. Запити CodeSensei назовні VRChat блокує, доки гравець сам не дозволить ненадійні адреси. Репозиторій не містить вихідних моделей і чотирьох префабів, на які посилається сцена, тому збірка з нуля не відтворюється. Докладніше: розділ 4 [документації](presentation-materials/documentation/DOCUMENTATION.md).
 
 ## 5. Подальший розвиток
 
@@ -80,7 +80,7 @@ Join on PC or PCVR with a VRChat account. World ID: `wrld_b1c73436-f022-4f98-917
 
 ## 4. Difficulties and limits
 
-Polygon, material, and download budgets forced retopology, or the headset frame rate drops and motion sickness appears. Lighting is baked instead of realtime. Interaction cannot be copied from ordinary Unity. Quest needs another pass. Outbound CodeSensei calls stay blocked until each player allows untrusted URLs. The repository does not contain the source models and the four prefabs the scene refers to, so the build cannot be reproduced from scratch. These limits are analysed as threats to validity in section 4 of the [documentation](presentation-materials/documentation/DOCUMENTATION.md).
+Polygon, material, and download budgets forced retopology, or the headset frame rate drops and motion sickness appears. Lighting is baked instead of realtime. Interaction cannot be copied from ordinary Unity. Quest needs another pass. Outbound CodeSensei calls stay blocked until each player allows untrusted URLs. The repository does not contain the source models and the four prefabs the scene refers to, so the build cannot be reproduced from scratch. More on these limits is in section 4 of the [documentation](presentation-materials/documentation/DOCUMENTATION.md).
 
 ## 5. Further development
 
