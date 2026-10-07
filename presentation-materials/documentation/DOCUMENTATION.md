@@ -4,7 +4,6 @@
 Номінація I · Erasmus+ NEXT · КПІ ім. Ігоря Сікорського  
 Тімлід: Павленко Святослав · парний ментор: [CodeSensei](https://github.com/mamenkomarkus-creator/CodeSensei) (команда KP_Devs)
 
-Версія документа: 2026-10-08 · ревізія репозиторію під час аналізу: `4fec493` · дата аналізу: 2026-10-07 (UTC)
 
 Світ: https://vrchat.com/home/world/wrld_b1c73436-f022-4f98-9172-671f9f0da989/info  
 World ID: `wrld_b1c73436-f022-4f98-9172-671f9f0da989`
