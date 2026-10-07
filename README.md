@@ -1,9 +1,8 @@
 # MetaLab
 
-Віртуальна зала **MacPaw AI Lab** у VRChat для метавсесвіту NEXT-Study.
+Віртуальна зала **MacPaw AI Lab** у VRChat для метавсесвіту NEXT-Study. Номінація I конкурсу Erasmus+ NEXT, КПІ ім. Ігоря Сікорського. Тімлід — **Павленко Святослав**.
 
-Номінація I · Erasmus+ NEXT · КПІ ім. Ігоря Сікорського · тімлід **Павленко Святослав**  
-Парний проєкт ментора: [CodeSensei](https://github.com/mamenkomarkus-creator/CodeSensei)
+Це не абстрактний «офіс майбутнього». Ми перенесли нашу лабораторію: семінар, lounge, дошки й робочі місця. Парний проєкт ментора, який ставиться в цю залу: [CodeSensei](https://github.com/mamenkomarkus-creator/CodeSensei).
 
 [Відкрити світ](https://vrchat.com/home/world/wrld_b1c73436-f022-4f98-9172-671f9f0da989/info) · [Відео](presentation-materials/demo-video.mp4) · [Презентація UK](presentation-materials/MetaLab-NEXT-UK.pdf) · [Презентація EN](presentation-materials/MetaLab-NEXT-EN.pdf) · [Документація](presentation-materials/documentation/DOCUMENTATION.md)
 
@@ -15,61 +14,66 @@
 
 | Ім’я | Роль |
 | --- | --- |
-| **Павленко Святослав** | Team lead · координація, збірка світу |
-| Ільєнко Денис | 3D · ретопологія |
-| Пошитнюк Дмитро | PBR · матеріали |
-| Маменко Марк | UdonSharp · мережа |
-| Шозда Катерина | QA / VR |
+| **Павленко Святослав** | Тімлід · координація, збірка світу |
+| Ільєнко Денис | 3D · моделі зали й ретопологія |
+| Пошитнюк Дмитро | PBR · матеріали в Unity |
+| Маменко Марк | UdonSharp · мережева синхронізація |
+| Шозда Катерина | Перевірка у VR · кадри, колізії, мережа |
 
-[AUTHORS.md](AUTHORS.md)
+Повний розподіл: [AUTHORS.md](AUTHORS.md).
 
 ## 1. Анотація
 
-У рамках конкурсу NEXT ми зібрали цифровий двійник університетської лабораторії MacPaw AI Lab у VRChat: семінарські ряди, lounge, дошки й робочі місця в одній багатокористувацькій залі. Світ опубліковано — група може проводити практику й екскурсії з ефектом присутності, а не в сітці вікон Zoom.
+У межах конкурсу ми зібрали багатокористувацьку копію університетської лабораторії MacPaw AI Lab. Семінарські ряди, зона з пуфами, маркерні дошки й робочі столи стоять в одній залі. Група може зійтися на практику, хакатон або екскурсію і бачити одне одного поруч, а не в сітці вікон відеозв’язку.
+
+Світ опубліковано у VRChat. У репозиторії — сцена Unity, презентації українською та англійською, спільне демо-відео і кадри саме цієї зали. Стокових офісів і згенерованих інтер’єрів у матеріалах немає.
 
 ## 2. Вступ
 
-Розробку створено в середовищі **Unity 2022.3.22f1** + **VRChat SDK3 Worlds**, з логікою **UdonSharp (C#)**. Геометрія — **Blender** (ретопологія під ліміти VRChat), матеріали — **Substance 3D Painter (PBR)**, світло — **light baking** у Unity. Референс — реальна зала MacPaw AI Lab у КПІ.
+Середовище — **Unity 2022.3.22f1** і **VRChat SDK3 Worlds**. Інтерактив написано на **UdonSharp (C#)**. Геометрія — **Blender** з ретопологією під ліміт полігонів платформи. Матеріали — **PBR у Substance 3D Painter**. Світло запечене в Unity, щоб шолом не рахував лампи щокадру.
+
+Референс — реальна лабораторія в КПІ. Кадри в `presentation-materials/lab/` зняті з нашої сцени: загальний план, lounge, сусідній відсік, семінар. Проєкт відкривається через VRChat Creator Companion з папки `unity/`.
 
 ## 3. Практична частина
 
-- Планування зали: семінар, lounge з пуфами, сусідній відсік, робочі столи.
-- Колізії на підлозі, столах і стінах; спавни та аудіозони SDK3.
-- Запечене світло замість realtime, щоб тримати FPS у шоломі.
-- Логотип MacPaw AI Lab на стіні — растрове зображення з референсу лабораторії, не згенерований сток.
-- Інтерактив UdonSharp (екрани, тригери, синхронізація між гравцями); місце під модуль CodeSensei.
-- Як зайти: VRChat PC/PCVR, світ [wrld_b1c73436-…](https://vrchat.com/home/world/wrld_b1c73436-f022-4f98-9172-671f9f0da989/info). Сцена: `unity/Assets/Scenes/MetaLab_Main.unity` у Creator Companion. Для термінала CodeSensei — **Allow Untrusted URLs**.
+У залі є семінарські столи з помаранчевими стільцями, дошки, стелажі, робочі місця і lounge з круглими пуфами. Пропорції взяті з нашої кімнати. Логотип MacPaw AI Lab на стіні — растрове зображення з референсу лабораторії, не згенерована картинка.
+
+Колізії стоять на підлозі, столах і стінах. SDK3 дає точки появи й аудіозони. UdonSharp синхронізує стан інтерактивних об’єктів між гравцями в одному інстансі. Окремо залишено місце під термінал CodeSensei: зала вже працює як місце зустрічі, а ментор додає в неї практику з коду.
+
+Як зайти. VRChat на PC або PCVR, акаунт, посилання на світ вище. World ID: `wrld_b1c73436-f022-4f98-9172-671f9f0da989`. Якщо в залі має відповідати ментор, увімкніть **Settings → Security → Allow Untrusted URLs** і перезайдіть. У редакторі сцена — `unity/Assets/Scenes/MetaLab_Main.unity`. Коротко: [presentation-materials/documentation/VRCHAT.md](presentation-materials/documentation/VRCHAT.md).
 
 ## 4. Труднощі та ліміти
 
-Баланс полігонів і матеріалів із візуальною точністю. Baking замість динамічного світла. FPS, щоб уникати заколисування. Мережа інтерактивних пропів без розвалу інстансу. Quest — лише в межах того, що витягне сцена.
+VRChat обмежує полігони, матеріали й розмір світу. Детальна копія кожного стільця не проходить, тож сітку спрощено ретопологією: інакше падають кадри і з’являється заколисування. Динамічне світло довелося замінити запеченим. Інтерактив не переноситься з звичайного Unity; синхронізувати можна лише те, що описано в Udon. Quest потребує окремого проходу. Запити CodeSensei назовні VRChat блокує, доки гравець сам не дозволить ненадійні адреси.
 
 ## 5. Подальший розвиток
 
-Підключення AI-ментора CodeSensei як постійного префаба, симулятори мереж через OSC/HTTP, модульні одиниці обладнання, окрема збірка під Quest.
+Залишити термінал CodeSensei в залі як постійний префаб. Додати невеликі симулятори мереж через OSC або HTTP. Зібрати обладнання модулями, щоб залу можна було доповнювати без повного перезбирання. Зробити прохід під Quest. Оформити публічну картку світу для екскурсій.
 
 ---
 
 # English
 
-Digital twin of **MacPaw AI Lab** in VRChat for Erasmus+ NEXT (Nomination I). Team lead: **Sviatoslav Pavlenko**. Paired mentor: [CodeSensei](https://github.com/mamenkomarkus-creator/CodeSensei).
+A VRChat twin of **MacPaw AI Lab** for the NEXT-Study metaverse. Nomination I of the Erasmus+ NEXT contest at Igor Sikorsky KPI. Team lead: **Sviatoslav Pavlenko**. This is our laboratory, not a generic future office. The mentor that belongs in the room is [CodeSensei](https://github.com/mamenkomarkus-creator/CodeSensei).
 
 ## 1. Annotation
 
-For the contest we published a multiplayer VRChat rebuild of our university lab — seminar rows, lounge, boards, workstations — so a group shares one room instead of a video grid.
+We published a multiplayer copy of the university lab: seminar rows, a lounge, boards, and workstations in one hall. A group can meet for a practical, a hackathon, or a tour and stand in the same room instead of a grid of video windows. The world is live. Slides and photos show this laboratory only.
 
 ## 2. Introduction
 
-Built in **Unity 2022.3.22f1** and **VRChat SDK3** with **UdonSharp**, **Blender** (retopo), **Substance 3D Painter** (PBR), and **baked lighting**. Reference: the real MacPaw AI Lab at KPI.
+Built in **Unity 2022.3.22f1** and **VRChat SDK3**, with **UdonSharp**, **Blender** retopology, **Substance 3D Painter** PBR, and **baked lighting**. The reference is the real MacPaw AI Lab at KPI. Images in `presentation-materials/lab/` are our scene. Open `unity/` in VRChat Creator Companion.
 
 ## 3. Practical part
 
-Retopo’d mesh, baked lights, collisions, SDK3 spawns, raster MacPaw AI Lab wall logo from our lab photos, UdonSharp sync. World ID `wrld_b1c73436-f022-4f98-9172-671f9f0da989`. Scene `unity/Assets/Scenes/MetaLab_Main.unity`.
+Seminar tables, orange chairs, whiteboards, shelves, workstations, and a lounge of round poufs. The wall logo is a raster from our lab reference. Colliders cover the floor, tables, and walls. SDK3 provides spawns and audio zones. UdonSharp syncs interactive state. Room is left for the CodeSensei terminal.
+
+Join on PC or PCVR with a VRChat account. World ID: `wrld_b1c73436-f022-4f98-9172-671f9f0da989`. For the mentor, enable **Allow Untrusted URLs** and rejoin. Scene: `unity/Assets/Scenes/MetaLab_Main.unity`. Short steps: [presentation-materials/documentation/VRCHAT.md](presentation-materials/documentation/VRCHAT.md).
 
 ## 4. Difficulties and limits
 
-Polygon/material budget, baking vs realtime, headset FPS, networked props, Quest limits.
+Polygon, material, and download budgets forced retopology, or the headset frame rate drops and motion sickness appears. Lighting is baked instead of realtime. Interaction cannot be copied from ordinary Unity. Quest needs another pass. Outbound CodeSensei calls stay blocked until each player allows untrusted URLs.
 
 ## 5. Further development
 
-Permanent CodeSensei prefab, OSC/HTTP simulators, modular equipment, Quest-oriented build.
+Keep the CodeSensei terminal as a permanent prefab. Add small network simulators over OSC or HTTP. Split equipment into modules. Make a Quest-oriented build. Publish a public world card for tours.

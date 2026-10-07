@@ -38,13 +38,13 @@ const copy = {
     ],
     workflowTitle: "How we work",
     workflow:
-      "Agile team of five. Modelling, texturing, C# logic and Unity assembly run in parallel, synced over Git. Regular VR playtests.",
+      "Five people. Modelling, materials, UdonSharp and Unity assembly run in parallel and sync through Git, with regular tests in a headset.",
     ideaTitle: "Annotation and introduction",
     ideaKicker: "ANNOTATION",
     ideaName: "Digital twin of our lab in VRChat",
     ideaUni: "MacPaw AI Lab  ·  NEXT-Study Metaverse",
     ideaBody:
-      "For the contest we published a VRChat rebuild of KPI MacPaw AI Lab: seminar rows, lounge, boards and workstations in one multiplayer hall. Built in Unity 2022.3.22f1 + VRChat SDK3 with UdonSharp, Blender retopo, Substance PBR and baked lighting.",
+      "For the contest we published a multiplayer VRChat copy of our MacPaw AI Lab: seminar rows, a lounge, boards and workstations in one hall, so a group shares a room instead of a video grid. Built in Unity 2022.3.22f1 and VRChat SDK3, with UdonSharp, Blender retopology, Substance PBR and baked light.",
     goalsKicker: "PROJECT GOALS",
     goals: [
       "• Visual accuracy: real proportions of furniture and gear",
@@ -56,14 +56,14 @@ const copy = {
     locTitle: "Selected Location",
     locName: "MacPaw AI Lab",
     locBody:
-      "Photos below are our laboratory only — seminar, lounge and workstations. No stock or generated interiors.",
+      "The photos are our laboratory only: overview, lounge and seminar rows. No stock offices and no generated interiors.",
     modelTitle: "The space in VRChat",
     artTitle: "Digital Artefacts",
     artNames: ["Classroom layout", "Lounge and boards", "Workstations"],
     artCaps: [
-      "Retopo’d mesh, baked lighting (no realtime lamps), collisions on floor, tables and walls.",
-      "Lounge and boards. Wall logo is a raster from our lab photos, not generated stock.",
-      "Workstations and UdonSharp sync. Space reserved for the CodeSensei terminal.",
+      "Retopologised mesh, baked light instead of realtime lamps, colliders on the floor, tables and walls.",
+      "Lounge and boards. The wall logo is a raster from our lab, not a generated picture.",
+      "Workstations plus UdonSharp sync. Space is left for the CodeSensei mentor.",
     ],
     tech: [
       [
@@ -80,13 +80,13 @@ const copy = {
       ],
       [
         "Difficulties and limits",
-        "Polygon and material budgets. Baking instead of realtime lights. Headset FPS vs VR sickness. Udon networking. Quest only after a separate optimisation pass.",
+        "VRChat caps polygons and materials, so meshes were retopologised. Light is baked. Only Udon can sync props. Quest needs a separate pass. CodeSensei calls need Allow Untrusted URLs.",
       ],
     ],
     next: [
       [
         "Educational use",
-        "In NEXT-Study Metaverse a group meets in the same virtual hall for remote practicals, hackathons and applicant tours — with the spatial feel of a real classroom.",
+        "A class meets in this hall for a remote practical, a hackathon or an applicant tour, with the spatial feel of the real lab.",
       ],
       [
         "User experience",
@@ -94,7 +94,7 @@ const copy = {
       ],
       [
         "Further development",
-        "Hook AI mentors and network simulators through OSC and HTTP, refine Quest performance, keep adding equipment as modular prefabs.",
+        "Keep the CodeSensei terminal in the hall, add small network simulators over OSC or HTTP, split gear into prefabs, and make a Quest pass.",
       ],
     ],
     demo: "Project demo",
@@ -131,13 +131,13 @@ const copy = {
     ],
     workflowTitle: "Як працюємо",
     workflow:
-      "Agile-команда з п’яти осіб. Моделювання, текстури, логіка C# і збірка в Unity паралельно, синхрон через Git. Регулярні VR-прогони.",
+      "П’ятеро. Моделі, матеріали, UdonSharp і збірка в Unity йдуть паралельно, зміни синхронізуються через Git, збірку регулярно перевіряють у шоломі.",
     ideaTitle: "Анотація та вступ",
     ideaKicker: "АНОТАЦІЯ",
     ideaName: "Цифровий двійник нашої лабораторії",
     ideaUni: "MacPaw AI Lab  ·  метавсесвіт NEXT-Study",
     ideaBody:
-      "У конкурсі NEXT ми опублікували VRChat-копію лабораторії MacPaw AI Lab КПІ: семінар, lounge, дошки й робочі місця в одній залі. Середовище: Unity 2022.3.22f1, VRChat SDK3, UdonSharp, Blender, Substance PBR, light baking.",
+      "У межах конкурсу NEXT ми опублікували багатокористувацьку копію нашої лабораторії MacPaw AI Lab: семінар, lounge, дошки й робочі місця в одній залі. Група бачить спільний простір, а не сітку вікон. Середовище: Unity 2022.3.22f1, VRChat SDK3, UdonSharp, Blender, Substance 3D Painter, запечене світло.",
     goalsKicker: "МЕТА ПРОЄКТУ",
     goals: [
       "• Візуальна точність: реальні пропорції меблів і техніки",
@@ -149,14 +149,14 @@ const copy = {
     locTitle: "Обрана локація",
     locName: "MacPaw AI Lab",
     locBody:
-      "Нижче лише фото нашої лабораторії: семінар, lounge, робочі місця. Без стоку й згенерованих інтер’єрів.",
+      "На слайді лише кадри нашої лабораторії: загальний вигляд, lounge і семінар. Стокових офісів і згенерованих інтер’єрів немає.",
     modelTitle: "Простір у VRChat",
     artTitle: "Цифрові артефакти",
     artNames: ["Планування зали", "Lounge і дошки", "Робочі місця"],
     artCaps: [
-      "Ретопологія, запечене світло (без realtime-ламп), колізії підлоги, столів і стін.",
-      "Lounge і дошки. Логотип на стіні — растр з фото нашої лабораторії, не сток.",
-      "Робочі місця та синхронізація UdonSharp. Місце під термінал CodeSensei.",
+      "Спрощена сітка, запечене світло замість ламп у реальному часі, колізії підлоги, столів і стін.",
+      "Lounge і дошки. Логотип на стіні — растр із нашої лабораторії, не згенерована картинка.",
+      "Робочі місця й синхронізація UdonSharp. Поруч передбачено місце для ментора CodeSensei.",
     ],
     tech: [
       [
@@ -173,13 +173,13 @@ const copy = {
       ],
       [
         "Труднощі та ліміти",
-        "Бюджет полігонів і матеріалів. Baking замість realtime. FPS у шоломі. Мережа Udon. Quest — лише після окремої оптимізації.",
+        "VRChat ріже полігони й матеріали, тож сітку спрощено. Світло запечене. Синхронізація лише через Udon. Quest — окремий прохід. Запити CodeSensei потребують Allow Untrusted URLs.",
       ],
     ],
     next: [
       [
         "Освітнє використання",
-        "У метавсесвіті NEXT-Study група збирається в тій самій віртуальній залі для дистанційних практик, хакатонів і екскурсій — зі відчуттям справжнього навчального простору.",
+        "Група збирається в цій залі на дистанційну практику, хакатон або екскурсію і стоїть у просторі реальної лабораторії, а не перед сіткою вікон.",
       ],
       [
         "Досвід відвідувача",
@@ -187,7 +187,7 @@ const copy = {
       ],
       [
         "Подальший розвиток",
-        "Підключити AI-менторів і мережеві симулятори через OSC/HTTP, підтягнути Quest, додавати обладнання як модульні префаби.",
+        "Лишити термінал CodeSensei в залі, додати невеликі симулятори через OSC або HTTP, зібрати обладнання модулями й зробити прохід під Quest.",
       ],
     ],
     demo: "Демо проєкту",
