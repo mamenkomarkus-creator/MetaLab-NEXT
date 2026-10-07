@@ -18,7 +18,7 @@ const copy = {
     title: "MetaLab",
     subtitle: "MacPaw AI Lab in VRChat for the NEXT-Study Metaverse",
     nomination: "Nomination I  —  Metaverse representation of the university",
-    teamLine: "Team MetaLab",
+    teamLine: "Team Bilka",
     university: "Igor Sikorsky Kyiv Polytechnic Institute",
     membersLabel: "Team members",
     members: [
@@ -111,7 +111,7 @@ const copy = {
     title: "MetaLab",
     subtitle: "MacPaw AI Lab у VRChat для метавсесвіту NEXT-Study",
     nomination: "Номінація I  —  Віртуальне Metaverse-представлення університету",
-    teamLine: "Команда MetaLab",
+    teamLine: "Команда Bilka",
     university: "КПІ ім. Ігоря Сікорського",
     membersLabel: "Учасники команди",
     members: [

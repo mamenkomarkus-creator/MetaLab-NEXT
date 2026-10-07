@@ -1,5 +1,7 @@
 # MetaLab
 
+**Команда Bilka** · проєкт MetaLab
+
 Віртуальна зала **MacPaw AI Lab** у VRChat для метавсесвіту NEXT-Study. Номінація I конкурсу Erasmus+ NEXT, КПІ ім. Ігоря Сікорського. Тімлід — **Павленко Святослав**.
 
 Це не абстрактний «офіс майбутнього». Ми перенесли нашу лабораторію: семінар, lounge, дошки й робочі місця. Парний проєкт ментора, який ставиться в цю залу: [CodeSensei](https://github.com/mamenkomarkus-creator/CodeSensei).
@@ -10,7 +12,7 @@
   <img src="presentation-materials/lab/01-overview.jpg" alt="MetaLab — наша лабораторія" width="880">
 </p>
 
-## Склад команди
+## Склад команди Bilka
 
 | Ім’я | Роль |
 | --- | --- |
@@ -54,7 +56,9 @@ VRChat обмежує полігони, матеріали й розмір св�
 
 # English
 
-A VRChat twin of **MacPaw AI Lab** for the NEXT-Study metaverse. Nomination I of the Erasmus+ NEXT contest at Igor Sikorsky KPI. Team lead: **Sviatoslav Pavlenko**. This is our laboratory, not a generic future office. The mentor that belongs in the room is [CodeSensei](https://github.com/mamenkomarkus-creator/CodeSensei).
+**Team Bilka** · project MetaLab
+
+A VRChat twin of **MacPaw AI Lab** for the NEXT-Study metaverse. Nomination I of the Erasmus+ NEXT contest at Igor Sikorsky KPI. Team lead: **Sviatoslav Pavlenko**. This is our laboratory, not a generic future office. The mentor that belongs in the room is [CodeSensei](https://github.com/mamenkomarkus-creator/CodeSensei) (team KP_Devs).
 
 ## 1. Annotation
 

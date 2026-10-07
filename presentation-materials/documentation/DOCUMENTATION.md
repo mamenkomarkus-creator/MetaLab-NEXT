@@ -1,7 +1,9 @@
 # Документація MetaLab
 
+**Команда Bilka** · проєкт MetaLab
+
 Номінація I · Erasmus+ NEXT · КПІ ім. Ігоря Сікорського  
-Тімлід: Павленко Святослав · парний проєкт ментора: [CodeSensei](https://github.com/mamenkomarkus-creator/CodeSensei)
+Тімлід: Павленко Святослав · парний ментор: [CodeSensei](https://github.com/mamenkomarkus-creator/CodeSensei) (команда KP_Devs)
 
 Світ: https://vrchat.com/home/world/wrld_b1c73436-f022-4f98-9172-671f9f0da989/info  
 World ID: `wrld_b1c73436-f022-4f98-9172-671f9f0da989`

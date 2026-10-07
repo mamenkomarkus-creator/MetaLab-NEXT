@@ -1,5 +1,8 @@
 # Команда / Team
 
+**Назва команди / Team name:** Bilka  
+**Проєкт / Project:** MetaLab
+
 **Тімлід / Team lead:** Павленко Святослав (Sviatoslav Pavlenko)
 
 | Ім’я | Name | Роль |
@@ -12,4 +15,4 @@
 
 КПІ ім. Ігоря Сікорського · Igor Sikorsky Kyiv Polytechnic Institute
 
-Парний проєкт ментора: [CodeSensei](https://github.com/mamenkomarkus-creator/CodeSensei) (тімлід Маменко Марк).
+Парний проєкт ментора: [CodeSensei](https://github.com/mamenkomarkus-creator/CodeSensei), команда KP_Devs (тімлід Маменко Марк).
