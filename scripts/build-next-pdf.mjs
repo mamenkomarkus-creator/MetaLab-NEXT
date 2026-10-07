@@ -39,12 +39,12 @@ const copy = {
     workflowTitle: "How we work",
     workflow:
       "Agile team of five. Modelling, texturing, C# logic and Unity assembly run in parallel, synced over Git. Regular VR playtests.",
-    ideaTitle: "Idea and goal",
-    ideaKicker: "THE PROBLEM",
-    ideaName: "No shared room in remote study",
+    ideaTitle: "Annotation and introduction",
+    ideaKicker: "ANNOTATION",
+    ideaName: "Digital twin of our lab in VRChat",
     ideaUni: "MacPaw AI Lab  ·  NEXT-Study Metaverse",
     ideaBody:
-      "MetaLab brings MacPaw AI Lab into VRChat. Seminar rows, boards and workstations live in one multiplayer hall so students can practise together with a sense of real presence.",
+      "For the contest we published a VRChat rebuild of KPI MacPaw AI Lab: seminar rows, lounge, boards and workstations in one multiplayer hall. Built in Unity 2022.3.22f1 + VRChat SDK3 with UdonSharp, Blender retopo, Substance PBR and baked lighting.",
     goalsKicker: "PROJECT GOALS",
     goals: [
       "• Visual accuracy: real proportions of furniture and gear",
@@ -56,14 +56,14 @@ const copy = {
     locTitle: "Selected Location",
     locName: "MacPaw AI Lab",
     locBody:
-      "The world rebuilds MacPaw AI Lab: seminar rows, critique boards, a lounge and workstations. Visitors share one room instead of a video grid.",
+      "Photos below are our laboratory only — seminar, lounge and workstations. No stock or generated interiors.",
     modelTitle: "The space in VRChat",
     artTitle: "Digital Artefacts",
     artNames: ["Classroom layout", "Lounge and boards", "Workstations"],
     artCaps: [
-      "Optimised room mesh with baked lighting, PBR materials and collisions for VRChat comfort.",
-      "Seminar tables, whiteboards and a rest zone for critiques and informal work.",
-      "Interactive ecosystem: terminals, switches, markers — UdonSharp syncs state between users.",
+      "Retopo’d mesh, baked lighting (no realtime lamps), collisions on floor, tables and walls.",
+      "Lounge and boards. Wall logo is a raster from our lab photos, not generated stock.",
+      "Workstations and UdonSharp sync. Space reserved for the CodeSensei terminal.",
     ],
     tech: [
       [
@@ -79,8 +79,8 @@ const copy = {
         "SDK3 Worlds: spawns, audio zones, synced object state. Published world wrld_b1c73436-f022-4f98-9172-671f9f0da989. Prefer PC / PCVR.",
       ],
       [
-        "Technical challenges",
-        "Polygon and material budgets vs visual fidelity. Baking instead of realtime lights. Keeping FPS high enough to avoid VR sickness. Networking interactive props without breaking the instance.",
+        "Difficulties and limits",
+        "Polygon and material budgets. Baking instead of realtime lights. Headset FPS vs VR sickness. Udon networking. Quest only after a separate optimisation pass.",
       ],
     ],
     next: [
@@ -102,7 +102,7 @@ const copy = {
     extra: "Additional resources",
     matLines: [
       "GitHub: github.com/mamenkomarkus-creator/MetaLab-NEXT",
-      "Docs: docs/README.md · docs/CONCEPT.md · docs/VRCHAT.md",
+      "Docs: presentation-materials/documentation/DOCUMENTATION.md",
       "World ID: wrld_b1c73436-f022-4f98-9172-671f9f0da989",
     ],
     extraLines: ["VRChat: hello.vrchat.com     NEXT: nextstudy.eu"],
@@ -132,12 +132,12 @@ const copy = {
     workflowTitle: "Як працюємо",
     workflow:
       "Agile-команда з п’яти осіб. Моделювання, текстури, логіка C# і збірка в Unity паралельно, синхрон через Git. Регулярні VR-прогони.",
-    ideaTitle: "Ідея та мета",
-    ideaKicker: "ПРОБЛЕМА",
-    ideaName: "Немає спільної зали дистанційно",
+    ideaTitle: "Анотація та вступ",
+    ideaKicker: "АНОТАЦІЯ",
+    ideaName: "Цифровий двійник нашої лабораторії",
     ideaUni: "MacPaw AI Lab  ·  метавсесвіт NEXT-Study",
     ideaBody:
-      "MetaLab переносить MacPaw AI Lab у VRChat. Семінарські ряди, дошки та робочі станції живуть в одній багатокористувацькій залі — практика разом, з ефектом присутності.",
+      "У конкурсі NEXT ми опублікували VRChat-копію лабораторії MacPaw AI Lab КПІ: семінар, lounge, дошки й робочі місця в одній залі. Середовище: Unity 2022.3.22f1, VRChat SDK3, UdonSharp, Blender, Substance PBR, light baking.",
     goalsKicker: "МЕТА ПРОЄКТУ",
     goals: [
       "• Візуальна точність: реальні пропорції меблів і техніки",
@@ -149,14 +149,14 @@ const copy = {
     locTitle: "Обрана локація",
     locName: "MacPaw AI Lab",
     locBody:
-      "Світ відтворює MacPaw AI Lab: семінарські ряди, дошки критики, lounge і робочі місця. Відвідувачі ділять одну залу, а не сітку вікон відеозв’язку.",
+      "Нижче лише фото нашої лабораторії: семінар, lounge, робочі місця. Без стоку й згенерованих інтер’єрів.",
     modelTitle: "Простір у VRChat",
     artTitle: "Цифрові артефакти",
     artNames: ["Планування зали", "Lounge і дошки", "Робочі місця"],
     artCaps: [
-      "Оптимізована кімната: запечене світло, PBR, колізії під вимоги VRChat.",
-      "Семінарські столи, маркерні дошки та зона відпочинку для критики й неформальної роботи.",
-      "Інтерактив: термінали, комутатори, маркери — UdonSharp синхронізує стан між гравцями.",
+      "Ретопологія, запечене світло (без realtime-ламп), колізії підлоги, столів і стін.",
+      "Lounge і дошки. Логотип на стіні — растр з фото нашої лабораторії, не сток.",
+      "Робочі місця та синхронізація UdonSharp. Місце під термінал CodeSensei.",
     ],
     tech: [
       [
@@ -172,8 +172,8 @@ const copy = {
         "SDK3 Worlds: спавни, аудіозони, синхронізація об’єктів. Опублікований світ wrld_b1c73436-f022-4f98-9172-671f9f0da989. Рекомендовано PC / PCVR.",
       ],
       [
-        "Технічні виклики",
-        "Баланс полігонів і матеріалів із візуальною точністю. Baking замість realtime-світла. FPS, щоб уникати заколисування. Мережа інтерактивних пропів без розвалу інстансу.",
+        "Труднощі та ліміти",
+        "Бюджет полігонів і матеріалів. Baking замість realtime. FPS у шоломі. Мережа Udon. Quest — лише після окремої оптимізації.",
       ],
     ],
     next: [
@@ -195,7 +195,7 @@ const copy = {
     extra: "Додаткові ресурси",
     matLines: [
       "GitHub: github.com/mamenkomarkus-creator/MetaLab-NEXT",
-      "Документи: docs/README.md · docs/CONCEPT.md · docs/VRCHAT.md",
+      "Документи: presentation-materials/documentation/DOCUMENTATION.md",
       "World ID: wrld_b1c73436-f022-4f98-9172-671f9f0da989",
     ],
     extraLines: ["VRChat: hello.vrchat.com     NEXT: nextstudy.eu"],
@@ -258,10 +258,10 @@ async function embedAny(pdf, filePath) {
 
 async function build(lang, outFile) {
   const t = copy[lang];
-  const templatePath = path.join(root, "docs/presentation/_next-template.pdf");
-  const labDir = path.join(root, "docs/presentation/lab");
-  const qrGitPath = path.join(root, "docs/presentation/qr-github.png");
-  const qrWorldPath = path.join(root, "docs/presentation/qr-world.png");
+  const templatePath = path.join(root, "presentation-materials/_next-template.pdf");
+  const labDir = path.join(root, "presentation-materials/lab");
+  const qrGitPath = path.join(root, "presentation-materials/qr-github.png");
+  const qrWorldPath = path.join(root, "presentation-materials/qr-world.png");
 
   const pdf = await PDFDocument.create();
   pdf.registerFontkit(fontkit);
@@ -424,6 +424,6 @@ async function build(lang, outFile) {
 }
 
 const lang = process.argv[2] || "both";
-const outDir = path.join(root, "docs/presentation");
+const outDir = path.join(root, "presentation-materials");
 if (lang === "en" || lang === "both") await build("en", path.join(outDir, "MetaLab-NEXT-EN.pdf"));
 if (lang === "uk" || lang === "both") await build("uk", path.join(outDir, "MetaLab-NEXT-UK.pdf"));

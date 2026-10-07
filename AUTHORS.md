@@ -11,3 +11,5 @@
 | Шозда Катерина | Kateryna Shozda | QA / VR Tester — продуктивність, колізії, мережа |
 
 КПІ ім. Ігоря Сікорського · Igor Sikorsky Kyiv Polytechnic Institute
+
+Парний проєкт ментора: [CodeSensei](https://github.com/mamenkomarkus-creator/CodeSensei) (тімлід Маменко Марк).

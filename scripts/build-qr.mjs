@@ -4,7 +4,7 @@ import { fileURLToPath } from "node:url";
 import QRCode from "qrcode";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const out = path.join(root, "docs/presentation");
+const out = path.join(root, "presentation-materials");
 
 await QRCode.toFile(path.join(out, "qr-github.png"), "https://github.com/mamenkomarkus-creator/MetaLab-NEXT", {
   width: 256,
