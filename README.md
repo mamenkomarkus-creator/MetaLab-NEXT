@@ -6,7 +6,7 @@
 
 Це не абстрактний «офіс майбутнього». Ми перенесли нашу лабораторію: семінар, lounge, дошки й робочі місця. Парний проєкт ментора, який ставиться в цю залу: [CodeSensei](https://github.com/mamenkomarkus-creator/CodeSensei).
 
-[Відкрити світ](https://vrchat.com/home/world/wrld_b1c73436-f022-4f98-9172-671f9f0da989/info) · [Відео](presentation-materials/demo-video.mp4) · [Презентація UK](presentation-materials/MetaLab-NEXT-UK.pdf) · [Презентація EN](presentation-materials/MetaLab-NEXT-EN.pdf) · [Документація](presentation-materials/documentation/DOCUMENTATION.md)
+[Відкрити світ](https://vrchat.com/home/world/wrld_b1c73436-f022-4f98-9172-671f9f0da989/info) · [Відео](presentation-materials/demo-video.mp4) · [Презентація UK](presentation-materials/MetaLab-NEXT-UK.pdf) · [Презентація EN](presentation-materials/MetaLab-NEXT-EN.pdf) · [Документація](presentation-materials/documentation/DOCUMENTATION.md) · [Google Диск](https://drive.google.com/drive/folders/1uw6UPaKP2u9v4NyBnryPq3I7B9trUXIB?usp=sharing)
 
 <p align="center">
   <img src="presentation-materials/lab/01-overview.jpg" alt="MetaLab — наша лабораторія" width="880">
