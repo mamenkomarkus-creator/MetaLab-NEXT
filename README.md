@@ -12,6 +12,7 @@
   <img src="presentation-materials/lab/01-overview.jpg" alt="MetaLab — наша лабораторія" width="880">
 </p>
 
+
 ## Склад команди Bilka
 
 | Ім’я | Роль |
